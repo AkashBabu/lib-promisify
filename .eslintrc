@@ -43,7 +43,12 @@
         }],
         "func-names": 0,
         "max-len": 0,
-        "mocha/no-exclusive-tests": "error"
+        "mocha/no-exclusive-tests": "error",
+        "import/no-extraneous-dependencies": ["error", {
+            "devDependencies": [
+              "test.js"
+            ]
+        }]
     },
     "env": {
         "node": true,
