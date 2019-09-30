@@ -1,3 +1,5 @@
+# DEPRECATING this library in favor of `utils.promisify`
+
 # lib-promisify
 Nodejs library that converts Callback styled functions to Promise styled
 
